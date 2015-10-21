@@ -1,13 +1,15 @@
+
 body {
 	background-color: #666666;
-	pading: 0px 50px 0px 50px;
-	margin: Opx 50px 0px 50px;
+	padding: 0% 10% 0% 10%;
+	margin: 0%;
 }
 #cadre {
 	background-color: #ffffff;
-	border: solid 2px;
+	border: solid 3px;
+	border-top-color: #ffffff;
+	border-bottom-color: #ffffff;
 	padding: 20px;
-
 }
 header {
 	border: solid 1px #000000;
@@ -15,7 +17,6 @@ header {
 	margin: 3px;
 	padding: 6px;
 	color: #000066;
-
 }
 #tete1 {
 
@@ -56,12 +57,10 @@ h2 {
 	border-top: dashed 1px #ffc354;
 	border-bottom: dashed 1px #ffc354;
 	color:#000066;
-
 }
 .poste span {
 	color:#333333;
 	font-size: 12px;
-
 }
 aside {
 	border: solid 1px;
@@ -78,7 +77,6 @@ img {
 #description {
 	text-align: justify;
 	color:#000066;
-
 }
 footer {
 	border: solid 1px;
