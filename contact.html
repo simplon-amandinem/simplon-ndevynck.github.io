@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Curiculum Vitae</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+<div id="cadre">
+ <header>
+   <div id="tete1">
+    <h1>Nicolas DEVYNCK</h1>
+    4 Rue du Capitole 11100 Narbonne<br />
+    Tél : 07.86.47.05.04<br>
+    Mail :<a href="mailto:nicolas.devynck@live.fr">Nicolas.devynck@live.fr</a>
+  </div>
+  <div id="tete2">
+    Né le 20/12/1984<br />
+    À Carcassonne<br />
+    Célibataire<br />
+    Permis B<br />
+  </div>
+ </header>
+ <nav>
+  <span>[</span><a href="index.html#formation">Formations</a><span>]</span><span>[</span><a href="index.html#experiance">Expériences</a><span>]</span><span>[</span><a href="index.html#autre">Divers</a><span>]</span><span>[</span><a href="contact.html">Contact</a><span>]</span>
+ </nav>
+ <aside>
+  <h2>Qui suis je ?</h2>
+    <img src="photo.jpg" alt="Profil" height="230" width="230" /><br />
+    <div id="description">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac consequat orci. Nam lectus ante, laoreet in ipsum sit amet, imperdiet porttitor lorem. Donec luctus interdum magna, vitae vehicula massa sagittis quis. Maecenas eu justo viverra, lacinia nisl in, dapibus ipsum. Quisque maximus urna nec dolor hendrerit, vel blandit nunc iaculis. Nullam ut neque ac ligula viverra egestas. Nullam in faucibus massa. Suspendisse eu elementum neque. Etiam ultrices erat a lobortis feugiat.
+    </div>
+ </aside>
+ <article>
+  <form method="post" action="traitement.php">
+    <fieldset>
+      <legend>Information civile</legend>
+        <table>
+          <tr>
+	        <td>
+		      <label for="titre">Titre de civilité * :</label>
+		    </td>
+	        <td>
+			  <select name="titre" id="titre" required>
+			    <option value=""></option>
+                <option value="Mr">Mr</option>
+                <option value="Mme">Mme</option>
+                <option value="Mlle"> Mlle</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+	        <td>
+			  <label for="nom">Nom * :</label>
+			</td>
+	        <td>
+			  <input type="text" name="nom" id="nom" required />
+			</td>
+          </tr>
+          <tr>
+	        <td>
+		      <label for="prenom">Prénom * :</label>
+		    </td>
+	        <td>
+			  <input type="text" name="prenom" id="prenom" required />
+			</td>
+          </tr>
+        </table>
+	</fieldset>
+	<br />
+    <fieldset>
+      <legend>Vos Coordonners</legend>
+        <table>
+        <tr>
+	      <td>
+	        <label for="adresse">Adresse :</label>
+      	</td>
+	      <td>
+            <input type="text" name="adresse" id="adresse" />
+          </td>
+        </tr>
+        <tr>
+	      <td>
+	        <label for="ville">Ville :</label>
+	      </td>
+	      <td>
+	        <input type="text" name="ville" id="ville"/>
+	      </td>
+        </tr>
+          <tr>
+	        <td>
+			  <label for="cp">Code Postal :</label>
+			</td>
+	       <td>
+		     <input type="text" name="cp" id="cp" />
+		   </td>
+        </tr>
+        <tr>
+	      <td>
+	        <label for="site">Site Web</label> :
+	      </td>
+	      <td>
+	        <input type="url" name="site" id="site" />
+	      </td>
+        </tr>
+         <tr>
+	      <td>
+	        <label for="mail">Mail * :</label>
+	      </td>
+	      <td>
+	        <input type="email" name="mail" id="mail" required />
+	      </td>
+        </tr>
+        <tr>
+	      <td>
+	        <label for="tel">Téléphonne :</label>
+	      </td>
+	      <td>
+            <input type="tel" name="tel" id="tel" />
+          </td>
+        </tr>
+      </table>
+	</fieldset>
+	<br />
+	<fieldset>
+      <legend>Details du message</legend>
+        <table>
+          <tr>
+	        <td>
+			  <label for="sujet">Sujet * :</label>
+		    </td>
+	        <td>
+			  <input type="text" name="sujet" id="sujet" required />
+	        </td>
+          </tr>
+          <tr>
+			<td>
+			  <label for="msg">Message * :</label>
+		    </td>
+	        <td>
+			  <textarea name="msg" id="msg" rows="10" cols="31" required></textarea>
+	        </td>
+          </tr>
+        </table>
+	</fieldset><br />
+    <input class="bouton" type="submit" value="Envoyer" />
+  </form>
+ </article>
+ <footer>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2909.10845206477!2d3.0025913504920445!3d43.18623519041677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b1ac6efe04bcad%3A0xb86bfbb49fb417fb!2s4+Rue+du+Capitole%2C+11100+Narbonne!5e0!3m2!1sfr!2sfr!4v1445517318748" width="960" height="300" allowfullscreen></iframe>
+ </footer>
+</div>
+</body>
+</html>
