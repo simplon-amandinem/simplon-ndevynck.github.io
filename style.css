@@ -15,17 +15,19 @@ header {
 	border: solid 1px #000000;
 	border-radius: 10px;
 	margin: 3px;
-	padding: 6px;
+	padding: 6px 6px 85px 6px;
 	color: #000066;
 }
 #tete1 {
-
+	float: left;
 }
 #tete2 {
-
+	float: right;
+	text-align: right;
 }
 h1 {
-
+	font-size: 18px;
+	margin: 1px 0px 1px 0px;
 }
 nav {
 	font-size: 20px;
@@ -35,38 +37,20 @@ nav {
 	margin: 3px;
 	padding: 6px;
 	background-color: #ffc354;
+	clear: both;
 }
 nav span{
 	Font-size: 25px;
 }
-article {
-	border: solid 1px;
-	border-radius: 10px;
-	margin: 3px;
-	padding: 6px;
-}
-h2 {
-	border-bottom:double 3px;
-	color: #000044;
-}
-.date {
-	font-weight: bold;
-	color: #000044;
-}
-.poste {
-	border-top: dashed 1px #ffc354;
-	border-bottom: dashed 1px #ffc354;
-	color:#000066;
-}
-.poste span {
-	color:#333333;
-	font-size: 12px;
-}
 aside {
+	position: absolute;
+	display:block;
 	border: solid 1px;
 	border-radius: 10px;
-	margin: 3px;
+	margin: 3px 65% 3px 3px;
 	padding: 6px;
+	float: left;
+	height: 143%
 }
 img {
 	display:block;
@@ -78,11 +62,38 @@ img {
 	text-align: justify;
 	color:#000066;
 }
+article {
+	display:block;
+	border: solid 1px;
+	border-radius: 10px;
+	margin: 3px 3px 3px 31%;
+	padding: 6px;
+	float: right;
+}
+h2 {
+	border-bottom:double 3px;
+	color: #000044;
+}
+.date {
+	font-weight: bold;
+	color: #000044;
+	margin-top: 10px;
+}
+.poste {
+	border-top: dashed 1px #ffc354;
+	border-bottom: dashed 1px #ffc354;
+	color:#000066;
+}
+.poste span {
+	color:#333333;
+	font-size: 12px;
+}
 footer {
 	border: solid 1px;
 	border-radius: 10px;
 	margin: 3px;
 	padding: 6px;
+	clear: both;
 }
 a {
 	text-decoration: none;
@@ -95,5 +106,6 @@ a:hover {
 .haut {
 	display:block;
 	text-align: center;
-	padding: 6px;
+	padding: 10px;
+	font-weight: bold;
 }
