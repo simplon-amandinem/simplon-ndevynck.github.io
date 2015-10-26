@@ -1,19 +1,27 @@
+@charset "utf-8";
 body {
 	background-color: #666666;
 	padding: 0% 10% 0% 10%;
 	margin: 0%;
+	color: #000066;
+}
+a {
+	text-decoration: none;
+	color: #6B90D3;
+}
+a:hover {
+	text-decoration: overline underline;
+	color: #666666;
 }
 #cadre {
 	background-color: #ffffff;
-	border: solid 3px;
-	border-top-color: #ffffff;
-	border-bottom-color: #ffffff;
+	border-right: solid 3px #000000;
+	border-left: solid 3px #000000;
 	padding: 20px;
 }
 header {
 	margin: 3px;
 	padding: 6px 6px 85px 6px;
-	color: #000066;
 }
 #tete1 {
 	float: left;
@@ -30,13 +38,13 @@ nav {
 	border: solid 1px;
 	border-radius: 10px;
 	font-size: 20px;
-	text-align :center;
+	text-align : center;
 	margin: 3px;
 	padding: 6px;
 	background-color: #ffc354;
 	clear: both;
 }
-nav span{
+nav span {
 	Font-size: 25px;
 }
 aside {
@@ -45,21 +53,20 @@ aside {
 	padding: 6px;
 }
 img {
-	display:block;
+	display: block;
 	margin: auto;
 	border: groove 4px #000066;
 }
 #description {
 	text-align: justify;
-	color:#000066;
 }
 article {
 	margin: 3px 3px 3px 31%;
 	padding: 6px;
-	border-left: 3px double;
+	border-left: 3px double #000000;
 }
 h2 {
-	border-bottom:double 3px;
+	border-bottom: double 3px;
 	color: #000044;
 }
 .date {
@@ -70,50 +77,30 @@ h2 {
 .poste {
 	border-top: dashed 1px #ffc354;
 	border-bottom: dashed 1px #ffc354;
-	color:#000066;
 }
 .poste span {
-	color:#333333;
+	color: #333333;
 	font-size: 12px;
 }
 footer {
 	margin: 3px;
 	padding: 6px;
 }
-a {
-	text-decoration: none;
-	color: #6B90D3;
-}
-a:hover {
-	text-decoration: overline underline;
-	color: #666666;
-}
 .haut {
-	display:block;
+	display: block;
 	text-align: center;
 	padding: 10px;
 	font-weight: bold;
 }
+/* Css Contact */
 table {
 	width: 640px;
 }
 td {
 	width: 50%;
 }
-input {
-	background-color: #ffc354;
-	border-radius: 10px;
-}
-textarea {
-	background-color: #ffc354;
-	border-radius: 10px;
-}
-select{
-	background-color: #ffc354;
-	border-radius: 10px;
-}
 legend {
-	color:#000044;
+	color: #000044;
 	font-weight: bold;
 }
 fieldset {
@@ -121,15 +108,26 @@ fieldset {
 	border-radius: 10px;
 }
 label {
-	color:#000066;
 	font-size: 14px;
 }
+fieldset input {
+	background-color: #ffc354;
+	border-radius: 10px;
+}
+fieldset textarea {
+	background-color: #ffc354;
+	border-radius: 10px;
+}
+fieldset select {
+	background-color: #ffc354;
+	border-radius: 10px;
+}
 .bouton {
-	display:block;
+	display: block;
 	margin: auto;
 }
 iframe {
- 	display:block;
+	display: block;
 	margin: auto;
 	border: groove 4px #000066;
 }

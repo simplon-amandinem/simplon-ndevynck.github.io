@@ -1,0 +1,4 @@
+git add '*'
+git reset HEAD 'gitbat.sh'
+git commit -m "Maj Bash"
+git add .
